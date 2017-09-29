@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Weather</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1></h1>
+
+        <div class="panel panel-default">
+            <div class="panel-heading" id="heading">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <h1>Weather forecast </h1>
+                    </div>
+
+                </div>
+            </div>
+            <div class="panel-body" style="max-height: 90%;">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-sm-2 form-group"></div>
+                        <div class="col-sm-8 form-group">
+                            <!-- <div class="row"> -->
+                            <table class="table">                                
+                                    <tr>
+                                        <td>
+                                            <p>Search weather by country or city</p>
+                                            <input type="text" class="form-control" id="place" placeholder="Country or City">                                            <br>
+                                            <button type="button" class="btn btn-primary btn-md" id="search">Search</button>
+                                        </td>
+                                        <td>
+                                            <div id="showweather">
+                                                
+                                            </div>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+
+                            <!-- </div> -->
+
+                        </div>
+                        <div class="col-sm-2 form-group">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+</body>
+
+</html>
