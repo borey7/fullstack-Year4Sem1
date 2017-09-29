@@ -1,9 +1,17 @@
 body {
-    background: cornflowerblue;
+    background: #C0CAA3;
 }
-div {
+h1 {
     font-family: 'Merriweather', serif;    
-}
-h1{
     color: burlywood
+}
+h3 {
+    font-family: 'Merriweather', serif;    
+    color: #D64D4D
+}
+.panel-body{
+    background-image: url("source/bg.jpg");    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
 }

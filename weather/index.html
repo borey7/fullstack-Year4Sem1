@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -15,7 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <script src="index.js"></script>
     <link rel="stylesheet" href="index.css">
-    <title>Weather</title>
+
+    <link rel="icon" href="source/tab-icon.png">
+    <title>weather</title>
 </head>
 
 <body>
@@ -26,7 +29,7 @@
             <div class="panel-heading" id="heading">
                 <div class="row">
                     <div class="col-sm-12">
-                        <h1>Weather forecast </h1>
+                        <h1>Weather</h1>
                     </div>
 
                 </div>
@@ -36,8 +39,8 @@
                     <div class="container">
                         <div class="col-sm-2 form-group"></div>
                         <div class="col-sm-8 form-group">
-                            <!-- <div class="row"> -->
-                            <table class="table">                                
+                            <div class="row">
+                                <table class="table">
                                     <tr>
                                         <td>
                                             <p>Search weather by country or city</p>
@@ -45,16 +48,18 @@
                                             <button type="button" class="btn btn-primary btn-md" id="search">Search</button>
                                         </td>
                                         <td>
-                                            <div id="showweather">
-                                                
-                                            </div>
+                                            <div id="showweather"></div>
                                         </td>
                                     </tr>
-                                
-                            </table>
+                                </table>
 
-                            <!-- </div> -->
-
+                            </div>
+                            <div class="row">
+                                <h5>Search history</h5>
+                                <table id="searchhistory" class='table table-striped'>
+                                    <tbody></tbody>
+                                </table>
+                            </div>
                         </div>
                         <div class="col-sm-2 form-group">
 
@@ -63,6 +68,12 @@
                 </div>
 
             </div>
+        </div>
+        <hr>    
+        <i>Mr. Borey Sok 5730211095 @2017</i>
+    </div>
+    
 </body>
+
 
 </html>
