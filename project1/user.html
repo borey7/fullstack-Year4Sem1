@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title id="title">Borey</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="user/css/main.css" />
+	<script src="jquery.min.js"></script>	
+	<script src="user.js"></script>
+</head>
+
+<body class="loading">
+	<div id="wrapper">
+		<div id="bg"></div>
+		<div id="overlay" hidden></div>
+		<div id="main">
+			<!-- Header -->
+			<header id="header">
+				<!-- home -->
+				<div id="home">
+					<h1 id="username"></h1>
+					<p>&nbsp;&bull;&nbsp; Inbox &nbsp;&bull;&nbsp; Edit your info &nbsp;&bull;&nbsp; Logout</p>
+					<nav>
+						<ul>
+							<li>
+								<a id="btn-inbox" href="#" class="icon fa-envelope-o">
+									<span class="label">Inbox</span>
+								</a>
+								</span>
+							</li>
+							<li>
+								<a id="btn-edit-info" href="#" class="icon fa-user">
+									<span class="label">Message</span>
+								</a>
+							</li>
+
+							<li>
+								<a id="btn-logout" href="#" class="icon fa-sign-out">
+									<span class="label">Logout</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<!-- inbox -->
+				<div id="inbox-form" hidden>
+					<p>Inbox (<span id="count-inbox"></span>)</p>
+					<nav>
+						<ul>
+							<li>
+								<a href="#" class="icon fa-chevron-circle-left btn-back">
+									<span class="label">Inbox</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="icon fa-envelope-o">
+									<span class="label">Inbox</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="container" id="inbox-content">						
+					</div>
+
+				</div>
+				<!-- edit user -->
+				<div id="edit-info" hidden>
+					<p>Edit your information</p>
+					<nav>
+						<ul>
+							<li>
+								<a href="#" class="icon fa-chevron-circle-left btn-back">
+									<span class="label">Back</span>
+								</a>
+							</li>
+							<li>
+								<a href="#" class="icon fa-user">
+									<span class="label">Inbox</span>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div id="signup-form" method="post">
+						<input style="color:blue" type="text" name="username" id="new-username" placeholder="New user name" />
+						<input style="color:blue" type="password" name="password" id="new-password" placeholder="New password" />
+						<input type="button" style="color: white;border-radius: 4px;text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);background: rgb(66, 184, 221);" id="btn-save" value="Save"/>
+					</div>
+				</div>
+			</header>
+
+		</div>
+		<!-- Footer -->
+		<footer id="footer">
+			<span class="copyright">Full Stack 2017 | 5730211095 - MR.BOREY SOK</span>
+		</footer>
+	</div>
+	<!--[if lte IE 8]><script src="user/js/ie/respond.min.js"></script><![endif]-->
+	<script>
+		window.onload = function () { document.body.className = ''; }
+		window.ontouchmove = function () { return false; }
+		window.onorientationchange = function () { document.body.scrollTop = 0; }
+	</script>
+</body>
+
+</html>
