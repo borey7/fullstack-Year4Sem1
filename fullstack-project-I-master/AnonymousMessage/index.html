@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<!--
+	Eventually by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Anonymous message</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="index/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="index/css/main.css" />
+	<!--[if lte IE 8]><link rel="stylesheet" href="index/css/ie8.css" /><![endif]-->
+	<!--[if lte IE 9]><link rel="stylesheet" href="index/css/ie9.css" /><![endif]-->
+	<script src="jquery.min.js"></script>
+	<style>
+		#selectuser {
+			width: 200px;
+			background-color: rgb(48, 104, 121);
+		}
+	</style>
+
+
+</head>
+
+<body>
+
+	<!-- Header -->
+	<header id="header">
+		<h1>Welcome! Anonymous message.</h1>
+		<p>Send what you want to say to any one you know in our website.
+			<br />Write your message > Select any user you want to send
+			<br />
+			<a id="link-send-message" href="#">Send Message</a> | 
+			<a id="link-register" href="#">Register</a> | 
+			<a id="link-login" href="#">Login</a> (to see message some one send you)
+		</p>
+	</header>
+	<!-- Send Message Form -->
+	<div id="send-form">
+		<div class="form-group" id="signup-form">
+			<textarea class="form-control" rows="5" id="message-input" style="display: inline-block;" placeholder="Type your message here . . ."></textarea>
+			<label>Sendto: </label>
+			<select class="dropdown" id="user-input" style="background-color:rgb(26, 54, 26)">	
+			</select>
+			<input type="submit" id="btn-send" value="Send" />
+		</div>
+	</div>
+	<!-- Login Form -->
+	<div id="login-form" hidden>
+		<div id="signup-form" method="post">
+			<input type="text" name="message" id="login-username" placeholder="Email" />
+			<input type="password" name="message" id="login-password" placeholder="Password" />
+			<input type="submit" id="btn-login" value="Login" />
+			<span style="color:red" class="login-alert"></span>
+		</div>
+	</div>
+
+	<!-- Register Form -->
+	<div id="register-form" hidden>
+		<div id="signup-form" method="post">
+			<input type="text" name="username" id="username" placeholder="User name" />
+			<input type="email" name="email" id="email" placeholder="Email" />
+			<input type="password" name="message" id="password" placeholder="Password" />
+			<input type="submit" id="btn-register" value="Register" />
+		</div>
+	</div>
+	<!-- Footer -->
+	<footer id="footer">
+		<ul class="copyright">
+			<li>Full Stack 2017</li>
+			<li>5730211095 - MR.BOREY SOK</li>
+		</ul>
+	</footer>
+
+	<!-- Scripts -->
+	<!--[if lte IE 8]><script src="index/js/ie/respond.min.js"></script><![endif]-->
+	<script src="index/js/main.js"></script>
+</body>
+
+</html>

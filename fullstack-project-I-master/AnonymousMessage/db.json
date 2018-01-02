@@ -1,0 +1,102 @@
+{
+  "messages": [
+    {
+      "id": 1,
+      "date": "11:9:25 10/24/2017",
+      "userid": "ban@gmail.com",
+      "message": "Hello! How are you"
+    },
+    {
+      "id": 3,
+      "date": "11:9:25 10/24/2017",
+      "userid": "Vy@gmail.com",
+      "message": "Hello!"
+    },
+    {
+      "id": 4,
+      "date": "11:9:25 10/24/2017",
+      "userid": null,
+      "message": "Hi"
+    },
+    {
+      "id": 11,
+      "date": "11:9:25 10/24/2017",
+      "userid": null,
+      "message": "Hiii"
+    },
+    {
+      "id": 13,
+      "date": "11:9:25 10/24/2017",
+      "userid": null,
+      "message": "$( \"p\" ).empty();"
+    },
+    {
+      "id": 15,
+      "date": "11:9:25 10/24/2017",
+      "userid": "ban@gmail.com",
+      "message": "Hello Ban"
+    },
+    {
+      "id": 16,
+      "date": "11:9:25 10/24/2017",
+      "userid": "jonh@outlook.com",
+      "message": "Hello Jonh"
+    },
+    {
+      "id": 18,
+      "date": "11:15:43 10/24/2017",
+      "userid": "Vong@gmail.com",
+      "message": "Hello Vong!"
+    },
+    {
+      "id": 19,
+      "date": "11:45:7 10/24/2017",
+      "userid": "Vy@gmail.com",
+      "message": "Hello Vy Na."
+    },
+    {
+      "id": 20,
+      "date": "11:50:51 10/24/2017",
+      "userid": "borey@gmail.com",
+      "message": "Hello Borey!"
+    },
+    {
+      "id": 21,
+      "date": "11:51:9 10/24/2017",
+      "userid": "borey@gmail.com",
+      "message": "Hi! Borey Do you know who I am ?"
+    }
+  ],
+  "users": [
+    {
+      "id": "ban@gmail.com",
+      "username": "Ban",
+      "password": "1"
+    },
+    {
+      "id": "borey@gmail.com",
+      "username": "Borey",
+      "password": "2"
+    },
+    {
+      "id": "Vy@gmail.com",
+      "username": "Vy Na",
+      "password": "vyna"
+    },
+    {
+      "id": "Vong@gmail.com",
+      "username": "Vong",
+      "password": "vong"
+    },
+    {
+      "id": "jonh@outlook.com",
+      "username": "Jonh",
+      "password": "jonh"
+    },
+    {
+      "id": "sample@email.com",
+      "username": "sample",
+      "password": "sample"
+    }
+  ]
+}
